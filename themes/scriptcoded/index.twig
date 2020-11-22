@@ -31,7 +31,7 @@
     <header class="header">
         <div class="header__content">
             <div class="header__logo">
-                <a href="me.php">Nihlén</a>
+                <a href="{{ base_url }}">Nihlén</a>
             </div>
 
             <div class="header__nav">
@@ -45,8 +45,17 @@
                 <nav class="header__nav__menu">
                     <ul>
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                            <li {% if page.id == current_page.id %} class="is-active" {% endif %}>
-                                <a href="{{ page.url }}">{{ page.title }}</a>
+                            <li class="header__nav__menu__item {% if page.id == current_page.id %}is-active{% endif %}">
+                                <a href="{{ page.url }}">
+                                    <div class="icon">
+                                        {% if page.id == 'index' %}<i class="fas fa-home"></i>
+                                        {% elseif page.id == 'docs/index' %}<i class="fas fa-book"></i>
+                                        {% elseif page.id == 'example/index' %}<i class="fas fa-question"></i>
+                                        {% elseif page.id == 'report/index' %}<i class="fas fa-flag-checkered"></i>
+                                        {% endif %}
+                                    </div>
+                                    {{ page.title }}
+                                </a>
                             </li>
                         {% endfor %}
                     </ul>

@@ -1,0 +1,18 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* Default is size 3 */
+    font-size: $size-3;
+    font-family: $font-family-display;
+    margin-bottom: 0.5rem;
+}
+h1 { font-size: $size-1; }
+h2 { font-size: $size-2; }
+h3 { font-size: $size-3; }
+h4 { font-size: $size-4; }
+h5 { font-size: $size-5; }
+h6 { font-size: $size-6; }
+h7 { font-size: $size-7; }

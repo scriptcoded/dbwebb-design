@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
+    "watch": "sass scriptcoded/scss/style.scss scriptcoded/css/style.css --no-source-map --watch",
     "style": "sass scriptcoded/scss/style.scss scriptcoded/css/style.css --no-source-map",
     "style-min": "sass scriptcoded/scss/style.scss scriptcoded/css/style.min.css --no-source-map --style compressed"
   },

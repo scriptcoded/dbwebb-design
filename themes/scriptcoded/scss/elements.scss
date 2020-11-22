@@ -1,0 +1,83 @@
+.image {
+    border-radius: $radius;
+    box-shadow: $shadow-1;
+}
+
+.image.is-small {
+    width: 40%;
+}
+
+ul,
+ol {
+    padding-left: 1em;
+}
+
+ul,
+ol li {
+    margin-bottom: 0.5em;
+}
+
+.code {
+    padding: 0 0.25em;
+    background-color: $surface-middle;
+    border-radius: $radius-small;
+    box-shadow: $shadow-1;
+}
+
+.code.is-multiline {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+}
+
+.byline {
+    display: flex;
+    padding: 0.5rem;
+    border: 1px solid $border;
+    border-radius: $radius;
+    background-color: $surface-light;
+    box-shadow: $shadow-1;
+
+    /* TODO: Change this so that the spacing is applied on the preceeding element */
+    margin-top: 0.5rem;
+}
+
+.byline__author {
+    display: flex;
+    flex-direction: column;
+}
+
+.byline__image {
+    width: 6rem;
+    /* margin-bottom: 0.25rem; */
+    border-radius: $radius;
+}
+
+.byline__name {
+    font-size: 0.875rem;
+    color: $text-muted;
+}
+
+.byline__content {
+    flex: 1;
+    padding-left: 0.5rem;
+}
+
+.byline__icons {
+    display: flex;
+    padding-top: 0.25rem;
+}
+
+.byline__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 2.5rem;
+    color: $text-muted;
+}
+
+.byline__icon:hover {
+    color: $text;
+}
+
+.byline__icon:not(:last-child) {
+    margin-right: 0.75rem;
+}

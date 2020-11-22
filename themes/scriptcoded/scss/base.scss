@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: $backdrop;
+    font-family: $font-family-sans;
+    color: $text;
+    padding: 0 1rem;
+}
+
+a {
+    color: $link;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+p:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+hr {
+    margin: 0.5rem 0;
+    border: 1px solid $surface-light;
+}
