@@ -61,7 +61,7 @@
         display: block;
     }
 
-    .header__nav__menu li.is-active::after {
+    .header__nav__menu .header__nav__menu__item.is-active::after {
         content: '';
         position: absolute;
         bottom: 0;
