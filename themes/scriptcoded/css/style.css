@@ -702,7 +702,6 @@ code {
 
 .header__nav__menu {
   flex: 1;
-  margin-right: -1rem;
 }
 .header__nav__menu ul, .header__nav__menu__item {
   list-style: none;
@@ -710,6 +709,7 @@ code {
 .header__nav__menu ul {
   display: flex;
   justify-content: flex-end;
+  margin: 0;
 }
 
 .header__nav__menu .header__nav__menu__item {
@@ -758,6 +758,20 @@ code {
 
 .header__nav__checkbox {
   display: none;
+}
+
+.header__theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.header__theme:hover {
+  background-color: #e3e3e3;
+  border-radius: 5px;
 }
 
 .footer {

@@ -2,9 +2,11 @@
 
 {% block headAppend %}
 
-{# <link rel="stylesheet" href="{{ theme_url }}/css/page-list.css" type="text/css" /> #}
-<link rel="stylesheet" href="{{ theme_url }}/css/page-list-dark.css" type="text/css" />
-
+{% if config.session.theme == 'dark' %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/page-list-dark.css" type="text/css" />
+{% else %}
+    <link rel="stylesheet" href="{{ theme_url }}/css/page-list.css" type="text/css" />
+{% endif %}
 {% endblock %}
 
 {% block content %}

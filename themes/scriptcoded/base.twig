@@ -20,9 +20,11 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    {# <link rel="stylesheet" href="{{ theme_url }}/../shared/css/font-awsome.min.css" type="text/css" /> #}
-    {# <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" /> #}
-    <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% if config.session.theme == 'dark' %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
 
     {% block headAppend %}{% endblock %}
 </head>
@@ -61,6 +63,14 @@
                     </ul>
                 </nav>
             </div>
+
+            <a href="?action=theme" class="header__theme">
+                {% if config.session.theme == 'dark' %}
+                    <i class="fas fa-sun"></i>
+                {% else %}
+                    <i class="fas fa-moon"></i>
+                {% endif %}
+            </a>
         </div>
     </header>
     <main class="content">
