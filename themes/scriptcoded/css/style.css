@@ -1,3 +1,13 @@
+@charset "UTF-8";
+/*
+
+
+    OBS!!!!
+
+    Jag laddar in FontAwesome samt Google Fonts i <head> istället!
+
+
+*/
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -836,7 +846,7 @@ ol li {
     display: block;
   }
 
-  .header__nav__menu li.is-active::after {
+  .header__nav__menu .header__nav__menu__item.is-active::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -874,8 +884,8 @@ ol li {
   font-weight: 600;
 }
 
-input.input,
-select.select {
+.input,
+.select {
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
   font-size: 1rem;

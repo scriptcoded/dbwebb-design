@@ -10,17 +10,17 @@
 
 @import '../../node_modules/normalize.css/normalize';
 
-@import 'variables';
+@import 'common/variables';
 
-@import 'helpers';
+@import 'common/helpers';
 
-@import 'base';
-@import 'typography';
-@import 'elements';
-@import 'columns';
-@import 'header';
-@import 'footer';
-@import 'layout';
-@import 'responsiveness';
-@import 'forms';
-@import 'buttons';
+@import 'common/base';
+@import 'common/typography';
+@import 'common/elements';
+@import 'common/columns';
+@import 'common/header';
+@import 'common/footer';
+@import 'common/layout';
+@import 'common/responsiveness';
+@import 'common/forms';
+@import 'common/buttons';
