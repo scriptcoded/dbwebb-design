@@ -1,0 +1,57 @@
+@import './common/variables';
+
+.kmom {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: 1fr 4fr;
+}
+
+.kmom-sidebar {
+    padding: 32px 0 0;
+    list-style: none;
+}
+
+.kmom-sidebar .kmom-sidebar__item {
+    position: relative;
+    padding: 0 4px;
+    margin-bottom: 10px;
+
+    a {
+        display: block;
+        font-family: $font-family-display;
+        font-size: 20px;
+        text-decoration: none;
+        color: $text;
+    }
+
+    &.is-active a {
+        font-weight: 600;
+    }
+
+    &.is-active::after {
+        content: '';
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        width: 100%;
+        height: 0.25rem;
+        background-color: $border-light;
+        border-radius: 9999999px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .kmom {
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .kmom {
+        grid-template-columns: 1fr;
+    }
+
+    .kmom-sidebar {
+        display: none;
+    }
+}

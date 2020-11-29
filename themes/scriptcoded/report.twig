@@ -1,0 +1,29 @@
+{% extends "base.twig" %}
+
+{% block headAppend %}
+
+<link rel="stylesheet" href="{{ theme_url }}/css/report.css" type="text/css" />
+
+{% endblock %}
+
+{% block content %}
+    <div class="landingpage">
+        {{ content }}
+
+        {% for item in config.reports %}
+            <a href="{{ base_url }}/report/{{ item.link }}" class="kmom-box {{ item.wide ? 'is-wide' : '' }}">
+                <div class="kmom-box__header">
+                    <div class="kmom-box__title">
+                        {{ item.name }}
+                    </div>
+                    <div class="kmom-box__button">
+                        <i class="far fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="kmom-box__content">
+                    {{ item.text }}
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+{% endblock %}

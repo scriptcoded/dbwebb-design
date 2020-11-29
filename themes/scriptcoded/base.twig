@@ -43,7 +43,7 @@
                 <nav class="header__nav__menu">
                     <ul>
                         {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                            <li class="header__nav__menu__item {% if page.id == current_page.id %}is-active{% endif %}">
+                            <li class="header__nav__menu__item {{ page.id == current_page.id ? 'is-active' : '' }}">
                                 <a href="{{ page.url }}">
                                     <div class="icon">
                                         {% if page.id == 'index' %}<i class="fas fa-home"></i>

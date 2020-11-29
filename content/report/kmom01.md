@@ -1,6 +1,7 @@
 ---
 Title: Kmom01
 Description: Report kmom01.
+Template: kmom
 ---
 
 Report kmom01

@@ -1,0 +1,29 @@
+reports:
+  - name: 'Kmom01'
+    text: 'Sådär, då var vi klara med första delen!'
+    link: 'kmom01'
+    
+  - name: 'Kmom02'
+    text: 'Gött, då var vi ingång med SCSS :)'
+    link: 'kmom02'
+
+  - name: 'Kmom03'
+    text: 'Inte gjort än'
+    link: 'kmom03'
+
+  - name: 'Kmom04'
+    text: 'Inte gjort än'
+    link: 'kmom04'
+
+  - name: 'Kmom05'
+    text: 'Inte gjort än'
+    link: 'kmom05'
+
+  - name: 'Kmom06'
+    text: 'Inte gjort än'
+    link: 'kmom06'
+    
+  - name: 'Kmom10'
+    text: 'Inte gjort än'
+    link: 'kmom10'
+    wide: true
