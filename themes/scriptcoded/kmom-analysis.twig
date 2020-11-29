@@ -1,0 +1,25 @@
+{% extends "base.twig" %}
+
+{% block headAppend %}
+
+<link rel="stylesheet" href="{{ theme_url }}/css/kmom.css" type="text/css" />
+
+{% endblock %}
+
+{% block content %}
+    <div class="kmom">
+        <ul class="kmom-sidebar">
+            {% for item in config.analyses %}
+                <li class="kmom-sidebar__item {{ current_page.id ends with item.link ? 'is-active' : '' }}">
+                    <a href="{{ base_url }}/analysis/{{ item.link }}">
+                        {{ item.name }}
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        <div class="kmom-content">
+            {{ content }}
+        </div>
+    </div>
+{% endblock %}

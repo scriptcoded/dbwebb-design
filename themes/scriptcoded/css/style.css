@@ -554,6 +554,27 @@ h7 {
   width: 40%;
 }
 
+.image-wrapper {
+  display: inline-block;
+  margin: 1rem 0;
+}
+.image-wrapper.is-small {
+  width: 40%;
+}
+.image-wrapper.is-third {
+  width: 30%;
+}
+.image-wrapper img {
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  max-width: 100%;
+}
+
+.image-text {
+  color: #b7c5d1;
+  font-size: 14px;
+}
+
 ul,
 ol {
   padding-left: 1em;
@@ -626,6 +647,18 @@ ol li {
 
 .byline__icon:not(:last-child) {
   margin-right: 0.75rem;
+}
+
+.swatch-table {
+  border-spacing: 4px;
+  border-collapse: separate;
+  margin: 1rem 0;
+}
+.swatch-table td {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .columns {

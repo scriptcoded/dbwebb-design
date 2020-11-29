@@ -1,0 +1,12 @@
+analyses:
+  - name: 'Kmom04'
+    text: 'Telefonabonnemang och deras färgval'
+    link: 'kmom04'
+
+  - name: 'Kmom05'
+    text: 'Inte gjort än'
+    link: 'kmom05'
+
+  - name: 'Kmom06'
+    text: 'Inte gjort än'
+    link: 'kmom06'

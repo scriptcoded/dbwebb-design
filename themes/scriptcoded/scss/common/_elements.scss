@@ -7,6 +7,30 @@
     width: 40%;
 }
 
+.image-wrapper {
+    display: inline-block;
+    margin: 1rem 0;
+    
+    &.is-small {
+        width: 40%;
+    }
+    
+    &.is-third {
+        width: 30%;
+    }
+
+    img {
+        border-radius: $radius;
+        box-shadow: $shadow-1;
+        max-width: 100%;
+    }
+}
+
+.image-text {
+    color: $text-muted;
+    font-size: 14px;
+}
+
 ul,
 ol {
     padding-left: 1em;
@@ -80,4 +104,17 @@ ol li {
 
 .byline__icon:not(:last-child) {
     margin-right: 0.75rem;
+}
+
+.swatch-table {
+    border-spacing: 4px;
+    border-collapse: separate;
+    margin: 1rem 0;
+
+    td {
+        height: 100px;
+        width: 100px;
+        border-radius: $radius;
+        box-shadow: $shadow-2;
+    }
 }
