@@ -8,7 +8,7 @@ reports:
     link: 'kmom02'
 
   - name: 'Kmom03'
-    text: 'Inte gjort än'
+    text: 'Jadå, nu kör vi! CSS-Grid och Flexbox!'
     link: 'kmom03'
 
   - name: 'Kmom04'
