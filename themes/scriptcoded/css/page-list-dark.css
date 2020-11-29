@@ -6,6 +6,10 @@
 /* Fonts */
 /* Text sizes */
 /* Misc */
+/* Surfaces */
+/* Colors */
+/* Text */
+/* Borders */
 .landingpage {
   display: grid;
   gap: 1em 1em;
@@ -31,7 +35,7 @@
   border-radius: 5px;
   border-top: 3px solid #18a82b;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  color: #444;
+  color: #bcbcbc;
   text-decoration: none;
   transition: all 0.25s ease;
   max-width: 100%;
@@ -46,7 +50,7 @@
   display: flex;
   align-items: center;
   padding: 0.5rem;
-  background-color: #f4f4f4;
+  background-color: #3e4c58;
   font-family: "Quicksand", sans-serif;
   font-size: 24px;
 }

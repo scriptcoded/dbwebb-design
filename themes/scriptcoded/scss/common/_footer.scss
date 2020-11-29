@@ -6,14 +6,14 @@
     display: flex;
     max-width: $content-width;
     margin: 0 auto;
-    color: $text-dark;
+    color: $text-muted;
 }
 
 .footer__section--dimmed {
     display: flex;
     max-width: $content-width;
     margin: 0 auto;
-    color: $text-dark-muted;
+    color: $text-muted;
 }
 
 .footer__section:not(:last-child) {
@@ -21,7 +21,7 @@
 }
 
 .footer__copyright a {
-    color: $text-dark;
+    color: $text-muted;
     text-decoration: none;
 }
 
@@ -36,7 +36,7 @@
 }
 
 .footer__link {
-    color: $text-dark;
+    color: $text-muted;
 }
 
 .footer__link:hover {

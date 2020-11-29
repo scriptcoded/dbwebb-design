@@ -1,29 +1,21 @@
 /* Surfaces */
-$backdrop: #f3f3f3;
-$surface: #fff;
-$surface-light: #f4f4f4;
-$surface-middle: #e3e3e3;
+$backdrop: #1a1a28;
+$surface: #26333f;
+$surface-light: #3e4c58;
+$surface-middle: #405a73;
 $surface-input: #cfd3d8;
 
-/* Colors */
-
-$primary: #d41948;
-$primary-light: #ff386a;
-$primary-dark: #870828;
-$secondary: #18a82b;
-$secondary-light: #19d434;
-
 /* Text */
-$text: #444;
-$text-muted: #666;
-$text-dark: #333;
+$text: #dbdbdb;
+$text-muted: #b7c5d1;
+$text-dark: #7f8992;
 $text-dark-muted: #5b6670;
 $text-input: #212931;
-$link: $primary;
+$link: #a8d9ec;
 
 /* Borders */
-$border: #cbcbcb;
-$border-light: #e1e1e1;
+$border: #526575;
+$border-light: #9eaebc;
 
 /* Shadow styles taken from https://codepen.io/sdthornton/pen/wBZdXq */
 $shadow-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);

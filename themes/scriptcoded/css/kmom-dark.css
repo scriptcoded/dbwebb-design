@@ -6,6 +6,10 @@
 /* Fonts */
 /* Text sizes */
 /* Misc */
+/* Surfaces */
+/* Colors */
+/* Text */
+/* Borders */
 .kmom {
   display: grid;
   gap: 1em 1em;
@@ -27,7 +31,7 @@
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
   text-decoration: none;
-  color: #444;
+  color: #bcbcbc;
 }
 .kmom-sidebar .kmom-sidebar__item.is-active a {
   font-weight: 600;

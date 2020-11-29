@@ -1,8 +1,8 @@
 .content {
     max-width: $content-width;
-    margin: 0 auto;
+    margin: -6px auto 0;
     padding: 1rem;
     background-color: $surface;
-    border-radius: $radius;
-    box-shadow: $shadow-3;
+    border-top: 6px solid $primary;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
 }

@@ -7,6 +7,10 @@
 /* Fonts */
 /* Text sizes */
 /* Misc */
+/* Surfaces */
+/* Colors */
+/* Text */
+/* Borders */
 /*
 
 
@@ -478,9 +482,9 @@ html {
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #1e1e22;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #444;
+  color: #bcbcbc;
 }
 
 a {
@@ -502,7 +506,7 @@ p:not(:last-of-type) {
 
 hr {
   margin: 0.5rem 0;
-  border: 1px solid #f4f4f4;
+  border: 1px solid #3e4c58;
 }
 
 h1,
@@ -587,7 +591,7 @@ ol li {
 
 code {
   padding: 0 0.25em;
-  background-color: #e3e3e3;
+  background-color: #405a73;
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
@@ -602,7 +606,7 @@ code {
   padding: 0.5rem;
   border: 1px solid #cbcbcb;
   border-radius: 5px;
-  background-color: #f4f4f4;
+  background-color: #3e4c58;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   /* TODO: Change this so that the spacing is applied on the preceeding element */
   margin-top: 0.5rem;
@@ -642,7 +646,7 @@ code {
 }
 
 .byline__icon:hover {
-  color: #444;
+  color: #bcbcbc;
 }
 
 .byline__icon:not(:last-child) {
@@ -678,7 +682,7 @@ code {
 }
 
 .header {
-  background-color: #fff;
+  background-color: #2c3339;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
 }
 
@@ -728,7 +732,7 @@ code {
   display: flex;
   font-family: "Quicksand", sans-serif;
   font-size: 1.25rem;
-  color: #444;
+  color: #bcbcbc;
   text-decoration: none;
 }
 .header__nav__menu .header__nav__menu__item.is-active a {
@@ -817,7 +821,7 @@ code {
   max-width: 64rem;
   margin: -6px auto 0;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #2c3339;
   border-top: 6px solid #d41948;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
 }
@@ -834,7 +838,7 @@ code {
     width: 100vw;
     height: 5rem;
     padding: 0 1rem;
-    background-color: #f3f3f3;
+    background-color: #1e1e22;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 
@@ -871,7 +875,7 @@ code {
     transform: translateX(-100%);
     height: 100vh;
     padding: 1.5rem 1.25rem;
-    background-color: #fff;
+    background-color: #2c3339;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
     width: 16rem;
     max-width: calc(100% - 2rem);
