@@ -1,12 +1,12 @@
 analyses:
-  - name: 'Kmom04'
+  - name: '01 Colors'
     text: 'Telefonabonnemang och deras färgval'
-    link: 'kmom04'
+    link: '01_colors'
 
-  - name: 'Kmom05'
+  - name: '02 Load'
     text: 'Inte gjort än'
-    link: 'kmom05'
+    link: '02_load'
 
-  - name: 'Kmom06'
+  - name: '03 Design Principles'
     text: 'Inte gjort än'
-    link: 'kmom06'
+    link: '03_design_principles'
