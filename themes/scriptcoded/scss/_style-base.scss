@@ -10,7 +10,7 @@
 
 @import '../../node_modules/normalize.css/normalize';
 
-@import 'common/helpers';
+@import 'common/util';
 
 @import 'common/base';
 @import 'common/typography';
@@ -22,3 +22,4 @@
 @import 'common/responsiveness';
 @import 'common/forms';
 @import 'common/buttons';
+@import 'common/gallery';

@@ -1,0 +1,31 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 100%;
+}
+
+.gallery__image {
+    @include hoverable;
+
+    display: block;
+    border-radius: $radius;
+    overflow: hidden;
+
+    img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}

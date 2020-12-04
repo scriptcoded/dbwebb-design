@@ -958,3 +958,37 @@ code {
   color: #212931;
   box-shadow: none;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 100%;
+}
+
+.gallery__image {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.gallery__image:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transform: translateY(-2px);
+}
+.gallery__image img {
+  display: block;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 640px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}

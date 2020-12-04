@@ -1,3 +1,5 @@
+@import 'common/util';
+
 .landingpage {
     display: grid;
     gap: 1em 1em;
@@ -18,21 +20,16 @@
 }
 
 .kmom-box {
+    @include hoverable;
+    
     display: block;
     border: 1px solid $border;
     border-radius: $radius;
     border-top: 3px solid $secondary;
-    box-shadow: $shadow-1;
     color: $text;
     text-decoration: none;
-    transition: all 0.25s ease;
     max-width: 100%;
     overflow: hidden;
-
-    &:hover {
-        box-shadow: $shadow-3;
-        transform: translateY(-2px);
-    }
 }
 
 .kmom-box__header {
