@@ -1,10 +1,10 @@
 ---
 Title: Kmom03
-Description: Report kmom03.
+Description: Redovisning kmom03.
 Template: kmom
 ---
 
-Report kmom03
+Redovisning kmom03
 ==========================
 
 Jadå, nu kör vi! CSS-Grid och Flexbox! När jag började på min nuvarande

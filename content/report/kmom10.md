@@ -1,10 +1,10 @@
 ---
 Title: Kmom10
-Description: Report kmom10.
+Description: Redovisning kmom10.
 Template: kmom
 ---
 
-Report kmom10
+Redovisning kmom10
 ==========================
 
 Inte gjort än

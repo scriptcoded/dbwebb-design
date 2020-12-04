@@ -1,6 +1,7 @@
 .header {
     background-color: $surface;
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
+    z-index: 500;
 }
 
 .header__content {

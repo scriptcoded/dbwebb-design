@@ -1,10 +1,10 @@
 ---
 Title: Kmom04
-Description: Report kmom04.
+Description: Redovisning kmom04.
 Template: kmom
 ---
 
-Report kmom04
+Redovisning kmom04
 ==========================
 
 Att få göra en gruppavgift var roligt. Vi dök djupt ner i våra olika sidor, och

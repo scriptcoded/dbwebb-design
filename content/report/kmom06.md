@@ -1,10 +1,10 @@
 ---
 Title: Kmom06
-Description: Report kmom06.
+Description: Redovisning kmom06.
 Template: kmom
 ---
 
-Report kmom06
+Redovisning kmom06
 ==========================
 
 Inte gjort än

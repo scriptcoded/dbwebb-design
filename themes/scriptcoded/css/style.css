@@ -680,6 +680,7 @@ code {
 .header {
   background-color: #fff;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
+  z-index: 500;
 }
 
 .header__content {
@@ -846,14 +847,14 @@ code {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 5rem;
     padding: 0 1rem;
-    background-color: #f3f3f3;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-bottom: 6px solid #d41948;
   }
 
   .header__content {
     align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .header__nav {
@@ -908,6 +909,10 @@ code {
     height: 100%;
     background-color: #e1e1e1;
     border-radius: 9999999px;
+  }
+
+  .content {
+    border-top: none;
   }
 
   .columns:not(.is-mobile) {

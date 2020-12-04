@@ -1,7 +1,7 @@
 ---
-Title: Analyses
-Description: Analyses.
+Title: Analyser
+Description: Analyser.
 Template: analysis
 ---
 
-# Analyses
+# Analyser

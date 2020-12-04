@@ -1,6 +1,6 @@
 ---
-Title: Analysis 02 Load
-Description: Analysis 02 Load.
+Title: Analys 02 Load
+Description: Analys 02 Load.
 Template: kmom-analysis
 ---
 

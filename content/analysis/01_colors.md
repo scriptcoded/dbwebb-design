@@ -1,6 +1,6 @@
 ---
-Title: Analysis 01 Colors
-Description: Analysis 01 Colors.
+Title: Analys 01 Colors
+Description: Analys 01 Colors.
 Template: kmom-analysis
 ---
 

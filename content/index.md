@@ -1,6 +1,6 @@
 ---
-Title: Home
-Description: Home sweet home.
+Title: Hem
+Description: Hem ljuva hem.
 ---
 
 Om mig själv

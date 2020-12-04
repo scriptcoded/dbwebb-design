@@ -1,10 +1,10 @@
 ---
 Title: Kmom01
-Description: Report kmom01.
+Description: Redovisning kmom01.
 Template: kmom
 ---
 
-Report kmom01
+Redovisning kmom01
 ==========================
 
 Sådär, då var vi klara med första delen! En gång i tiden byggde jag och en god

@@ -1,10 +1,10 @@
 ---
 Title: Kmom02
-Description: Report kmom02.
+Description: Redovisning kmom02.
 Template: kmom
 ---
 
-Report kmom02
+Redovisning kmom02
 ==========================
 
 Gött, då var vi ingång med SCSS :) Kan börja med att säga att jag är gladd att

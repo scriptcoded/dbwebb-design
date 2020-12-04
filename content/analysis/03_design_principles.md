@@ -1,10 +1,10 @@
 ---
-Title: Analysis 03 Design Principles
-Description: Analysis 03 Design Principles.
+Title: Analys 03 Design Principles
+Description: Analys 03 Design Principles.
 Template: kmom-analysis
 ---
 
-Analysis 03 Design Principles
+Analys 03 Design Principles
 ==========================
 
 Inte gjort än
