@@ -4,7 +4,7 @@ analyses:
     link: '01_colors'
 
   - name: '02 Load'
-    text: 'Inte gjort än'
+    text: 'Laddningstider hos högskole- och universitetshemsidor'
     link: '02_load'
 
   - name: '03 Design Principles'
