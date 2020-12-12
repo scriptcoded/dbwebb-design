@@ -130,5 +130,5 @@ utils.slideDown = function (element, finishCallback, startCallback)
  */
 utils.isElementVisible = function (element)
 {
-    return !!(element.offsetWidth || element.offsetHeight || element.getClientRects().length);
+    return element && !!(element.offsetWidth || element.offsetHeight || element.getClientRects().length);
 };
