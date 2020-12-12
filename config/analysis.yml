@@ -8,5 +8,5 @@ analyses:
     link: '02_load'
 
   - name: '03 Design Principles'
-    text: 'Inte gjort än'
+    text: 'Designprinciper på musikers personsidor'
     link: '03_design_principles'
