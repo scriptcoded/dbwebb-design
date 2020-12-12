@@ -119,6 +119,18 @@
   float: right;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                            Screen reader helpers                           */
+/* -------------------------------------------------------------------------- */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .landingpage {
   display: grid;
   gap: 1em 1em;

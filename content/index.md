@@ -6,7 +6,7 @@ Description: Hem ljuva hem.
 Om mig själv
 ==========================
 
-![Malcolm](%base_url%/image/malcolm.jpg) {.image .is-small .float-right}
+![Ett porträtt på Malcolm Nihlén](%base_url%/image/malcolm.jpg) {.image .is-small .float-right}
 
 Mitt namn är Malcolm Nihlén. För ca. 21 år sedan föddes jag i Malmö, och jag har faktiskt stannat där sedan dess.
 

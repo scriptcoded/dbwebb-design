@@ -465,6 +465,18 @@ template {
   float: right;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                            Screen reader helpers                           */
+/* -------------------------------------------------------------------------- */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 *,
 *::before,
 *::after {
@@ -930,7 +942,7 @@ code {
   }
 
   .content {
-    border-top: none;
+    border-top: 0;
   }
 
   .columns:not(.is-mobile) {
