@@ -499,7 +499,7 @@ body {
 }
 
 a {
-  color: #d41948;
+  color: #0fb8f2;
   text-decoration: underline;
 }
 
@@ -586,7 +586,7 @@ h7 {
 }
 
 .image-text {
-  color: #666;
+  color: #868686;
   font-size: 14px;
 }
 
@@ -636,7 +636,7 @@ code {
 
 .byline__name {
   font-size: 0.875rem;
-  color: #666;
+  color: #868686;
 }
 
 .byline__content {
@@ -653,7 +653,7 @@ code {
   width: 2.5rem;
   height: 2.5rem;
   font-size: 2.5rem;
-  color: #666;
+  color: #868686;
 }
 
 .byline__icon:hover {
@@ -730,7 +730,7 @@ code {
 .header__logo a {
   font-size: 3rem;
   font-family: "Quicksand", sans-serif;
-  color: #d41948;
+  color: #f3275a;
   text-decoration: none;
 }
 
@@ -775,7 +775,7 @@ code {
   left: 0;
   width: 100%;
   height: 0.25rem;
-  background-color: #d41948;
+  background-color: #f3275a;
   border-radius: 9999999px;
 }
 
@@ -802,6 +802,7 @@ code {
   height: 2rem;
   margin-left: 1rem;
   text-decoration: none;
+  color: #f3275a;
 }
 .header__theme:hover {
   background-color: #405a73;
@@ -816,14 +817,14 @@ code {
   display: flex;
   max-width: 64rem;
   margin: 0 auto;
-  color: #666;
+  color: #868686;
 }
 
 .footer__section--dimmed {
   display: flex;
   max-width: 64rem;
   margin: 0 auto;
-  color: #666;
+  color: #868686;
 }
 
 .footer__section:not(:last-child) {
@@ -831,12 +832,12 @@ code {
 }
 
 .footer__copyright a {
-  color: #666;
+  color: #868686;
   text-decoration: none;
 }
 
 .footer__copyright a:hover {
-  color: #666;
+  color: #868686;
 }
 
 .footer__links {
@@ -846,11 +847,11 @@ code {
 }
 
 .footer__link {
-  color: #666;
+  color: #868686;
 }
 
 .footer__link:hover {
-  color: #666;
+  color: #868686;
 }
 
 .footer__link:not(:last-child) {
@@ -866,7 +867,7 @@ code {
   margin: -6px auto 0;
   padding: 1rem;
   background-color: #2c3339;
-  border-top: 6px solid #d41948;
+  border-top: 6px solid #f3275a;
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.07);
 }
 
@@ -881,7 +882,7 @@ code {
     left: 0;
     width: 100vw;
     padding: 0 1rem;
-    border-bottom: 6px solid #d41948;
+    border-bottom: 6px solid #f3275a;
   }
 
   .header__content {
